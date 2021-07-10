@@ -1,0 +1,8 @@
+agregar usuario= una insert a tabla persona recuperar id insert a usuario campo Rda
+agregar estudiante = insetar a persona recuperar id inserta a estudiante campo rude
+colocar campampos faltantates a estudiantes curso que recoja de base de datos
+aulas el nombre  de base de datos
+aulas limite covid  automatico %
+
+crear asistencia vista
+registro de
