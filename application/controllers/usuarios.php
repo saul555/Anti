@@ -6,8 +6,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Usuarios extends CI_Controller {
  
+
+
 	public function index()
 	{
+
+    
 		
       $data['msg']=$this->uri->segment(3);
 
@@ -36,10 +40,7 @@ class Usuarios extends CI_Controller {
 /*
        else
        {
-         $this->load->view('fondo/cabeza.php');       
-         $this->load->view('fondo/cuerpo.php');       
-         $this->load->view('fondo/base.php');        
-          
+         
         }*/
 
 
