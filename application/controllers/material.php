@@ -6,7 +6,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Material extends CI_Controller {
- 
+ //funcional
 	public function index()
 	{
 		
@@ -14,7 +14,7 @@ class Material extends CI_Controller {
      
 
 
-
+   
 
      $lista1=$this->material_model->lista_d("todos");
      $data['t']=$lista1;
@@ -474,12 +474,6 @@ class Material extends CI_Controller {
        }
 
 
-
-	 }
-	 public function logout()
-	 {
-       $this->session->sess_destroy();
-       redirect('usuarios/index/3','refresh');
 
 	 }
 
