@@ -40,7 +40,7 @@ class Usuarios extends CI_Controller {
 /*
        else
        {
-         
+         git 
         }*/
 
 
@@ -57,7 +57,7 @@ class Usuarios extends CI_Controller {
    $lista=$this->usuario_model->lista();
     $data['usuarios']=$lista;  
 
-
+///lista de usuarios 
 
 
      $lista1=$this->usuario_model->lista_rol("todos");
@@ -94,7 +94,7 @@ class Usuarios extends CI_Controller {
 
     
   }
-
+//tabla no funcional
    public function tablas()
   {
      
