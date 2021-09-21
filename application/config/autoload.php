@@ -131,6 +131,6 @@ $autoload['language'] = array();
 | in the controller:
 |
 |	$autoload['model'] = array('first_model' => 'first');
-*/
+*/  
 $autoload['model'] = array('usuario_model','estudiante_model','aula_model','registroD_model','material_model','cursos_model');
 
