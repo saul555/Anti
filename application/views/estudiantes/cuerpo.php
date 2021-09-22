@@ -66,7 +66,7 @@
                          <th class="cell"scope="col">Sexo</th>
                          
                         
-                          <th class="cell"scope="col">curso</th>
+                          <th class="cell"scope="col">Curso</th>
                          
                          <th class="cell"scope="col">Modificar</th>
                          <th class="cell"scope="col">Eliminar</th>

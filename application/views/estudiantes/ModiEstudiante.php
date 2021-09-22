@@ -32,8 +32,8 @@
         <div class="row mb-2">
           
                   <div class="col-12 col-md-2">
-                    <h3 class="section-title">Modificar Estudiante </h3>
-                    <div class="section-intro">Sea Responsable  </div>
+                    <h3 class="section-title">Modificar  Estudiante </h3>
+                    <div class="section-intro">Se a Responsable  </div>
                   </div>
                   <div class="col-12 col-md-6">
                     <div class="app-card app-card-settings shadow-sm p-4">

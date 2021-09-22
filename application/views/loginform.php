@@ -5,7 +5,7 @@
      $mensaje="Error de ingreso";
      break;
      case '2':
-     $mensaje="Acceso no valido";
+     $mensaje="Acceso no Valido";
      break;
      case '3':
      $mensaje="Gracias por usar el sistema";

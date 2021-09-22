@@ -93,7 +93,7 @@
 
 
 
-<h2>Lista de Materiales</h2>
+<h2>Lista de Materiales </h2>
 
 
      <?php 
@@ -167,8 +167,8 @@
                         <th class="cell" scope="col">Material</th>
                         
                          
-                         <th class="cell"scope="col">cantidad</th>
-                          <th class="cell"scope="col">categoria</th>
+                         <th class="cell"scope="col">Cantidad</th>
+                          <th class="cell"scope="col">Categoria</th>
                          
                          <th class="cell"scope="col">Modificar</th>
                          <th class="cell"scope="col">Eliminar</th>
