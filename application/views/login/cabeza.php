@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title></title>
+    <title>Portal - Bootstrap 5 Admin Dashboard Template For Developers</title>
     
     <!-- Meta -->
     <meta charset="utf-8">

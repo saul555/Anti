@@ -6,12 +6,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Usuarios extends CI_Controller {
  
-
-
 	public function index()
 	{
-
-    
 		
       $data['msg']=$this->uri->segment(3);
 
@@ -40,7 +36,10 @@ class Usuarios extends CI_Controller {
 /*
        else
        {
-         git 
+         $this->load->view('fondo/cabeza.php');       
+         $this->load->view('fondo/cuerpo.php');       
+         $this->load->view('fondo/base.php');        
+          
         }*/
 
 
@@ -57,7 +56,7 @@ class Usuarios extends CI_Controller {
    $lista=$this->usuario_model->lista();
     $data['usuarios']=$lista;  
 
-///lista de usuarios 
+
 
 
      $lista1=$this->usuario_model->lista_rol("todos");
@@ -94,7 +93,7 @@ class Usuarios extends CI_Controller {
 
     
   }
-//tabla no funcional
+
    public function tablas()
   {
      

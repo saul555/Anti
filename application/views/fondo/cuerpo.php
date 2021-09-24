@@ -1,6 +1,6 @@
 
 
-
+ 
 
 
 
@@ -66,7 +66,8 @@
                          
                        
                           <th class="cell"scope="col">curso</th>
-                         
+                          <th class="cell"scope="col">Codigo tarjeta</th>
+                          <th class="cell"scope="col">Asignar tajeta</th>
                          <th class="cell"scope="col">Modificar</th>
                          <th class="cell"scope="col">Eliminar</th>
                   </tr>
@@ -94,11 +95,78 @@ foreach ($t->result() as $row)
       
     
       <td><?php echo $row->curso; ?></td>
+
+
+
+
+      <?php  
+
+$N=0; 
+foreach ($ta->result() as $row2) 
+
+{
+  if($row2->idtarjeta==$row->idtarjeta){
+     
+    $N= $row2->codigo;   
+ 
+   
+  }
+ 
+  
+}
+  if($N==0){
      
 
+
+    ?>
+      <td>     
+      <?php   
+                   
+      ?>
+      </td>
+
+    <?php 
+
+  }
+  else{
+    ?>
+    <td>     
+    <?php   
+       echo $N;           
+    ?>
+    </td>
+
+  <?php 
+
+
+  }
+  ?>
+
+
     
+
+
+
+     <td>
+      <?php  
+
+
+?>
+
+        <?php 
+         echo form_open_multipart('estudiantes/tarjeta');
+         ?>
+        <input type="hidden" name="idestudiante" value="<?php echo $row->idestudiante; ?>">
+       
+         <button type="submit " class="btn btn-success btn-xs">Asignar</button>
+        <?php 
+          echo form_close();
+
+         ?>
+      </td>
       
 
+     
    
       <td>
         <?php 
@@ -137,6 +205,7 @@ foreach ($t->result() as $row)
                 
                  
                   </tfoot>
+                  
                 </table>
               </div>
               <!-- /.card-body -->

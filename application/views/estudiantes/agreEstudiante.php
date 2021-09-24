@@ -9,7 +9,8 @@
      break;
      case '3':
      $mensaje="Gracias por usar el sistema";
-     break;  
+     break;
+   
    default:
      $mensaje=$msg;
      break;
@@ -68,7 +69,7 @@
 <div >
     <label class="text-muted" >Apellido Paterno</label>
     <input type="text" class="form-control" name="primerApellido"    required="">
-      
+    
   </div>
   <div >
     <label class="text-muted">Apellido Materno</label>
@@ -76,7 +77,7 @@
     
   </div>
 
- 
+
 
   <div class="mb-3">
     <label class="text-muted">CI</label>
@@ -91,8 +92,6 @@
     <label class="text-muted">Mujer</label>
     <input type="radio"  name="sexo"  value="M" >
     
-    
-
     
   </div>
 

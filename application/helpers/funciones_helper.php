@@ -140,5 +140,21 @@ function id($dato)
 
     return $n;
   }
+
+
+  function fechaAsistencia($fecha)
+ 
+  /*17-08-2021*/
+    {
+    
+   
+  
+    $fechaS=substr($fecha,0,10);
+    
+    
+     
+  
+      return $fechaS;
+    }
   
   ?>

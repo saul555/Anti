@@ -18,7 +18,7 @@
 <script src="<?php echo base_url(); ?>plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?php echo base_url(); ?>dist/js/adminlte.min.js"></script>
-<!-- AdminLTE for demo purposes -->
+<!-- AdminLTE for demo purposes --> 
 <script src="<?php echo base_url(); ?>dist/js/demo.js"></script>
 <!-- Page specific script -->
 <script>

@@ -11,7 +11,7 @@ class RegistroD extends CI_Controller
 	public function index()
 	{
     $Aula=$this->aula_model->lista();
-    $data['A']=$Aula;
+    $data2['A']=$Aula;
  
    
      $lista1=$this->registroD_model->lista();
@@ -24,7 +24,7 @@ class RegistroD extends CI_Controller
 
  
   
-     $this->load->view('fondo/cabeza.php');    
+     $this->load->view('fondo/cabeza.php',$data2);    
      
       $rol=$this->session->userdata('rol');
      if ($rol=="administrador") {
@@ -34,9 +34,11 @@ class RegistroD extends CI_Controller
        $this->load->view('1/menuProfe.php');
 
      }      
-        $this->load->view('registroDef/lista.php',$data); 
+       
+     $this->load->view('registroDef/rDef.php',$data); 
+    // $this->load->view('registroDef/lista.php',$data); 
         
-        $this->load->view('1/base.php'); 
+        $this->load->view('fondo/base2.php'); 
 
 
 

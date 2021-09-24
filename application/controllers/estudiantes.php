@@ -12,12 +12,19 @@ class Estudiantes extends CI_Controller {
 		
       
      
+    $lista=$this->tarjeta_model->listatarjeta("todos");
+    $data2['ta']=$lista;
 
 
 
 
      $lista1=$this->estudiante_model->lista_rol("todos");
      $data['t']=$lista1;
+
+     
+     $lista1=$this->estudiante_model->lista_rol("todos");
+     $data['t']=$lista1;
+  
   
       $lista2=$this->estudiante_model->lista_rol("eliminados");
      $data['e']=$lista2;
@@ -40,7 +47,7 @@ class Estudiantes extends CI_Controller {
 
 */
   
-        $this->load->view('fondo/cabeza.php');   
+        $this->load->view('fondo/cabeza.php',$data2);   
        
         $rol=$this->session->userdata('rol');
      if ($rol=="administrador") {
@@ -126,7 +133,7 @@ class Estudiantes extends CI_Controller {
       {
 
        
-
+       
            $data['nombre']=$_POST['nombre'];
        $data['primerApellido']=$_POST['primerApellido'];
        $data['segundoApellido']=$_POST['segundoApellido'];
@@ -149,9 +156,51 @@ class Estudiantes extends CI_Controller {
        
      
 
-
+ 
   }
 
+  public function tarjeta()
+  {
+    $data['msg']=$this->uri->segment(3);
+
+    $idestudiante=$_POST['idestudiante'];
+    $data['infoestudiante']=$this->estudiante_model->recuperarEstudiante($idestudiante);
+    $data5['estudiantes']=$this->estudiante_model->lista();
+ 
+ 
+    $lista1=$this->tarjeta_model->listatarjeta2("estudiante");
+    $data2['t']=$lista1;
+
+    $this->load->view('fondo/cabeza.php',$data5);   
+    
+     $rol=$this->session->userdata('rol');
+     if ($rol=="administrador") {
+       $this->load->view('1/menuAdmin.php',$data2);
+     }
+     else{
+       $this->load->view('1/menuProfe.php');
+
+     }   
+       $this->load->view('estudiantes/ModiTarjeta.php',$data); 
+       //$this->load->view('fondo/base.php');
+       $this->load->view('fondo/base2.php');
+  } 
+
+  public function Eliminarbdtarjeta()
+  {
+     $idestudiante=$_POST['idestudiante'];
+     $idtarjeta=$_POST['idtarjeta'];
+     $data2['idtarjeta']= $idtarjeta;
+     $data['nombre']= $_POST['nombre'];
+     
+     $data['idestudiante']= $idestudiante;
+  $this->tarjeta_model->eliminarT($idtarjeta,$data);
+  $lista=$this->estudiante_model->ModificarEstudiante($idestudiante,$data2);
+  
+        redirect('estudiantes/index','refresh');
+
+
+  }
 
 
 

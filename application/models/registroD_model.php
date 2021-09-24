@@ -18,6 +18,20 @@ class RegistroD_model extends CI_Model
 
 	}
 
+	public function listaAsistecia()
+	{
+		$estado=1;
+        
+        
+        	$this->db->select('*');
+		$this->db->from('asistencia');
+		$this->db->where('estado',$estado);
+		
+        	  return $this->db->get();
+		
+
+	}
+
    
 
  
@@ -69,6 +83,14 @@ class RegistroD_model extends CI_Model
 		
 	}
 
+	public function eliminarAsistencia($idasistencia,$data)
+	{
+		
+
+		$this->db->where('idasistencia',$idasistencia);
+		$this->db->update('asistencia',$data);
+		
+	}
 
 
 
