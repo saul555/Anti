@@ -4,7 +4,7 @@
 
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+  
 class Asistecia extends CI_Controller 
 {
  
@@ -42,6 +42,11 @@ class Asistecia extends CI_Controller
      }      
        
      $this->load->view('asistencia/cuerpoAsis.php',$data); 
+    // $this->load->view('registroDef/lista.php',$data); 
+    // $this->load->view('registroDef/lista.php',$data); 
+    // $this->load->view('registroDef/lista.php',$data); 
+    // $this->load->view('registroDef/lista.php',$data); 
+
     // $this->load->view('registroDef/lista.php',$data); 
         
         $this->load->view('fondo/base2.php'); 
