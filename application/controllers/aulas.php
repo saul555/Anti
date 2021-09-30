@@ -11,31 +11,14 @@ class Aulas extends CI_Controller
 	public function index()
 	{
 		
-      
-     
-
-
-
-
-
      $lista1=$this->aula_model->lista();
-     $data['t']=$lista1;
-  
-   
-
-
-
-
-    
-    
+     $data['t']=$lista1;   
 
 
 
   
         $this->load->view('fondo/cabeza.php');  
-
-
-        
+       
 
      $rol=$this->session->userdata('rol');
      if ($rol=="administrador") {
@@ -50,8 +33,6 @@ class Aulas extends CI_Controller
         $this->load->view('aula/lista.php',$data); 
         
         $this->load->view('1/base.php'); 
-
-
 
 
 
@@ -87,9 +68,7 @@ class Aulas extends CI_Controller
 
   }
 
-
-
-  public function Limite()
+ public function Limite()
 
   {
     $lista1=$this->cursos_model->LimiteC();
@@ -113,9 +92,7 @@ class Aulas extends CI_Controller
 
 
   }
-
-
-  public function modLim ()
+    public function modLim ()
   {
 
       
@@ -128,12 +105,6 @@ class Aulas extends CI_Controller
   }
 
 
- 
-
-
-
-
-
 
   public function agregarbd()
   {
@@ -141,22 +112,9 @@ class Aulas extends CI_Controller
 
 
 
-
-
-     //  $ci=$_POST['ci'];
-
-  
-    // $consul=$this->estudiante_model->validarci($ci); 
-     //if ($consul->num_rows()>0)
-     // {
-        
-        // redirect('estudiantes/agregar/1','refresh');
-
          
 
-   //   }
-   //   else
-   //   {
+
 
     
            $data['nombre']=$_POST['nombre'];
