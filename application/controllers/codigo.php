@@ -13,11 +13,6 @@ class Codigo extends CI_Controller
         $lista1=$this->tarjeta_model->listatarjeta("todos");
         $data2['t']=$lista1;
     
-   
-
-
- 
- 
   
      $this->load->view('fondo/cabeza.php');    
      
@@ -34,15 +29,7 @@ class Codigo extends CI_Controller
     
         
         $this->load->view('fondo/base2.php'); 
-
-
-
-
-
 	}
-
-
-
 
    public function agregar()
 
@@ -73,24 +60,6 @@ class Codigo extends CI_Controller
   {
     
 
-
-
-
-
-     //  $ci=$_POST['ci'];
-
-  
-    // $consul=$this->estudiante_model->validarci($ci); 
-     //if ($consul->num_rows()>0)
-     // {
-        
-        // redirect('estudiantes/agregar/1','refresh');
-
-         
-
-   //   }
-   //   else
-   //   {
     $user=$this->session->userdata('nombreUsuario');
     $data['idUsuaioModifico']=$user;
            $data['nombre']=$_POST['nombre'];
@@ -102,15 +71,8 @@ class Codigo extends CI_Controller
          $this->aula_model->AgregarAula($data);
           redirect('aulas/index','refresh');
 
-    //  }
-      
+  
 
-
-       
-
-
-       
-     
 
 
   }
@@ -143,26 +105,10 @@ class Codigo extends CI_Controller
        $idregistro=$_POST['idregistro'];
         $data['estadoAula']=$_POST['estadoAula'];
       
-
-
-
-
-
-      // $ci=$_POST['ci'];
-
-  //
-    /// $consulta=$this->estudiante_model->validarci($ci); 
-    
-
        $lista=$this->registroD_model->ModificarRegistro($idregistro,$data);
       redirect('registroD/index','refresh');      
 
         
-
-      
-      
-
-
 
 
 
@@ -202,18 +148,6 @@ class Codigo extends CI_Controller
     $this->load->view('pUsuario.php',$data); //contenido
     $this->load->view('inc_footer.php');  //archivos del footer
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
