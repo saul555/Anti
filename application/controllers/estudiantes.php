@@ -10,28 +10,16 @@ class Estudiantes extends CI_Controller {
 	public function index()
 	{
 		
-      
-     
     $lista=$this->tarjeta_model->listatarjeta("todos");
     $data2['ta']=$lista;
 
-
-
-
      $lista1=$this->estudiante_model->lista_rol("todos");
-     $data['t']=$lista1;
-
-     
+     $data['t']=$lista1;     
      $lista1=$this->estudiante_model->lista_rol("todos");
-     $data['t']=$lista1;
-  
+     $data['t']=$lista1;  
   
       $lista2=$this->estudiante_model->lista_rol("eliminados");
      $data['e']=$lista2;
-
-
-
-
 
     
      $lista3=$this->usuario_model->lista_rol("administrador");
@@ -39,6 +27,8 @@ class Estudiantes extends CI_Controller {
     
 
 /*
+
+
 
      $this->load->view('fondo/cabeza.php');   
      $this->load->view('fondo/menu.php');        
@@ -64,13 +54,6 @@ class Estudiantes extends CI_Controller {
         
      $this->load->view('fondo/base.php'); 
        
-
-
-
-
-
-
-
 
 
 
@@ -149,12 +132,6 @@ class Estudiantes extends CI_Controller {
       }
       
 
-
-       
-
-
-       
-     
 
  
   }

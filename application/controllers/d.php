@@ -12,26 +12,11 @@ class D extends CI_Controller
 	{
 		
       
-     
-
-
-
-
-
      $lista1=$this->aula_model->lista("todos");
      $data['t']=$lista1;
   
       $lista2=$this->aula_model->lista("eliminados");
      $data['e']=$lista2;
-
-
-
-
-
-    
-    
-
-
 
   
         $this->load->view('1/cabeza.php');  
@@ -41,12 +26,7 @@ class D extends CI_Controller
         $this->load->view('1/base.php'); 
 
 
-
-
-
 	}
-
-
 
 
    public function agregar()
@@ -71,24 +51,6 @@ class D extends CI_Controller
   {
     
 
-
-
-
-
-     //  $ci=$_POST['ci'];
-
-  
-    // $consul=$this->estudiante_model->validarci($ci); 
-     //if ($consul->num_rows()>0)
-     // {
-        
-        // redirect('estudiantes/agregar/1','refresh');
-
-         
-
-   //   }
-   //   else
-   //   {
            $data['nombre']=$_POST['nombre'];
        $data['capacidad']=$_POST['capacidad'];
        $data['capacidadPermitida']=$_POST['capacidadPermitida'];
@@ -98,15 +60,6 @@ class D extends CI_Controller
          $this->aula_model->AgregarAula($data);
           redirect('aulas/index','refresh');
 
-    //  }
-      
-
-
-       
-
-
-       
-     
 
 
   }
@@ -135,26 +88,10 @@ class D extends CI_Controller
        $data['capacidadPermitida']=$_POST['capacidadPermitida'];
        $data['limiteCovid']=$_POST['limiteCovid'];
 
-
-
-
-
-      // $ci=$_POST['ci'];
-
-  //
-    /// $consulta=$this->estudiante_model->validarci($ci); 
-    
-
        $lista=$this->aula_model->ModificarAula($idaula,$data);
       redirect('aulas/index','refresh');      
 
-        
-
-      
-      
-
-
-
+     
 
 
   }
