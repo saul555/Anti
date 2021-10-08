@@ -20,10 +20,6 @@
 
  ?>
 
-
-
-
-    
     <div class="content-wrapper">
       
       <div class="app-content pt-3 p-md-3 p-lg-4">
@@ -37,9 +33,6 @@
                     <br>
                      <div class="section-intro">Puede colocar una nueva categoria al sistema </div>
 
-       
-
-        
 
 
                   </div>
@@ -47,9 +40,6 @@
                     <div class="app-card app-card-settings shadow-sm p-4">
                 
                 <div class="app-card-body">
-
-
-
 
        
 <?php
@@ -70,7 +60,6 @@
 
 
 foreach ($cate->result() as $row) 
-
 {
   
   
@@ -96,7 +85,6 @@ foreach ($cate->result() as $row)
   
  </div>
 
-
                  
 
                    <div class="mb-3">
@@ -114,6 +102,44 @@ foreach ($cate->result() as $row)
   </div>
 
 <div class="mb-3">
+    <label  class="form-label">Unidad de medida</label>
+
+      <select  class="form-control"  name="unidadMedida"   required="">
+
+
+                      <option>unidades </option>
+                      <option>litros </option>
+                       <option>kilos </option>
+                   
+                        
+                      
+                    </select>
+
+
+
+    
+  
+ </div>
+ <div class="mb-3">
+    <label  class="form-label">Unidad de medida</label>
+
+      <select  class="form-control"  name="unidadMedida"   required="">
+
+
+                      <option>unidades </option>
+                      <option>litros </option>
+                       <option>kilos </option>
+                   
+                        
+                      
+                    </select>
+
+
+
+    
+  
+ </div>
+ <div class="mb-3">
     <label  class="form-label">Unidad de medida</label>
 
       <select  class="form-control"  name="unidadMedida"   required="">
