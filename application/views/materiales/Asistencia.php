@@ -5,44 +5,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     <div class="app-wrapper">
       
       <div class="app-content pt-3 p-md-3 p-lg-4">
       
      <div class="container-xl">
-
-
-
-
-
-
-
-
-
-             
-
 
 
 
@@ -82,15 +50,11 @@
                 
                 </nav>
             </div>
-        </div>
-
-        
+        </div>        
         
 
 
     </div>
-
-
 
 
 <h2>Lista de Materiales</h2>
@@ -105,14 +69,6 @@
           echo form_close();
 
           ?>
-
-
-
-
-
-
-
-
 
 
 
@@ -132,6 +88,34 @@
 
 
         </nav>
+        <nav id="orders-table-tab" class="orders-table-tab app-nav-tabs nav shadow-sm flex-column flex-sm-row mb-4">
+
+
+
+<a class="flex-sm-fill text-sm-center nav-link active" id="orders-all-tab" data-bs-toggle="tab" href="#orders-all" role="tab" aria-controls="orders-all" aria-selected="true">Materia  Desinfeccion </a>
+
+
+<a class="flex-sm-fill text-sm-center nav-link"  id="orders-paid-tab" data-bs-toggle="tab" href="#orders-paid" role="tab" aria-controls="orders-paid" aria-selected="false">Categoria</a>
+
+
+
+
+</nav>
+
+<nav id="orders-table-tab" class="orders-table-tab app-nav-tabs nav shadow-sm flex-column flex-sm-row mb-4">
+
+
+
+<a class="flex-sm-fill text-sm-center nav-link active" id="orders-all-tab" data-bs-toggle="tab" href="#orders-all" role="tab" aria-controls="orders-all" aria-selected="true">Materia  Desinfeccion </a>
+
+
+<a class="flex-sm-fill text-sm-center nav-link"  id="orders-paid-tab" data-bs-toggle="tab" href="#orders-paid" role="tab" aria-controls="orders-paid" aria-selected="false">Categoria</a>
+
+
+
+
+</nav>
+
 
 
  
