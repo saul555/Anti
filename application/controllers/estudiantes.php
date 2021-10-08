@@ -159,7 +159,7 @@ class Estudiantes extends CI_Controller {
 
      }   
        $this->load->view('estudiantes/ModiTarjeta.php',$data); 
-       //$this->load->view('fondo/base.php');
+      
        $this->load->view('fondo/base2.php');
   } 
 

@@ -10,11 +10,6 @@ class Material extends CI_Controller {
 	public function index()
 	{
 		
-      
-     
-
-
-
 
      $lista1=$this->material_model->lista_d("todos");
      $data['t']=$lista1;
@@ -25,9 +20,6 @@ class Material extends CI_Controller {
 
    $lista3=$this->material_model->listaCatego("todos");
      $data['cate']=$lista3;
-
-
-    
 
 
 
