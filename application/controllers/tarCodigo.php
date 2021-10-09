@@ -3,9 +3,6 @@ echo "lecturas de sensor Para temperaturA <br>";
 
 
 $codigo = $_GET['cod'];
-
-
-
 //echo "El sensor tiene la siguiente lectura : ".$lectura."<br>";
 
 $usuario = "root";
@@ -38,6 +35,12 @@ $consulta = "SELECT nombre FROM tarjeta where codigo=$codigo;";
 $resultado = mysqli_query( $enlace, $consulta );
      $exite="no";
     //echo "exixte un dato    ";
+     //echo "exixte un dato    ";
+      //echo "exixte un dato    ";
+       //echo "exixte un dato    "; //echo "exixte un dato    ";
+
+        //echo "exixte un dato    ";
+        
     while ($fila = $resultado->fetch_row()) {
        // printf ("%s\n", $fila[0]);
         $exite="si";

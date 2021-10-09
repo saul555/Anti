@@ -22,7 +22,6 @@ class Material extends CI_Controller {
      $data['cate']=$lista3;
 
 
-
   
      $this->load->view('fondo/cabeza.php');   
     $rol=$this->session->userdata('rol');

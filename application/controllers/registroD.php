@@ -19,10 +19,7 @@ class RegistroD extends CI_Controller
 
   
  $lista2=$this->registroD_model->lista();
-     $data['e']=$lista2;
-
-
- 
+     $data['e']=$lista2; 
   
      $this->load->view('fondo/cabeza.php',$data2);    
      
@@ -36,16 +33,12 @@ class RegistroD extends CI_Controller
      }      
        
      $this->load->view('registroDef/rDef.php',$data); 
-    // $this->load->view('registroDef/lista.php',$data); 
-        
+   
         $this->load->view('fondo/base2.php'); 
 
 
 
-
-
 	}
-
 
 
 
