@@ -20,10 +20,6 @@
 
  ?>
 
-
-
-
-    
     <div class="content-wrapper">
       
       <div class="app-content pt-3 p-md-3 p-lg-4">
@@ -36,6 +32,10 @@
                     <div class="section-intro">Sea Responsable  </div>
                     <br>
                      <div class="section-intro">Puede colocar una nueva categoria al sistema </div>
+                     <div class="section-intro">Puede colocar una nueva categoria al sistema </div>
+                     <div class="section-intro">Puede colocar una nueva categoria al sistema </div>
+                     <div class="section-intro">Puede colocar una nueva categoria al sistema </div>
+                     
 
        
 <?php

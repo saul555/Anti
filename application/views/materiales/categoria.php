@@ -21,8 +21,6 @@
  ?>
 
 
-
-
     
     <div class="content-wrapper">
       
@@ -37,7 +35,7 @@
                     <br>
                      <div class="section-intro">Puede colocar una nueva categoria al sistema </div>
 
-       
+                     <div class="section-intro">Puede colocar una nueva categoria al sistema </div>       <div class="section-intro">Puede colocar una nueva categoria al sistema </div>
 <?php
 
  
@@ -69,12 +67,8 @@
 
 
 
-                <hr class="my-4">
-               
+                <hr class="my-4">         
               
-               
-                
-
 
                 <div class="card-body">
                 <table id="example2" class="table table-bordered table-hover">
@@ -105,13 +99,6 @@ foreach ($cate->result() as $row)
       <td><?php echo $row->categoria; ?></td>
       
 
-      
-     
-     
-
-    
-      
-
    
       <td>
         <?php 
@@ -125,9 +112,6 @@ foreach ($cate->result() as $row)
 
          ?>
       </td>
-
-
-
       <td>
         <?php 
          echo form_open_multipart('material/EliminarbdCate');
@@ -156,17 +140,6 @@ foreach ($cate->result() as $row)
 
   
 
-
-
-
-
-
-
-
-
-
-
-         
         </div><!--//container-fluid-->
       </div><!--//app-content-->
       
