@@ -11,9 +11,6 @@
 
 
 
-
-
-
 <?php
 
 foreach ($infoestudiante->result() as $row)
@@ -21,8 +18,6 @@ foreach ($infoestudiante->result() as $row)
    echo form_open_multipart('estudiante/modificarbd');
   ?>
 
-
-  
 
    <input type="hidden" name="idEstudiante" value="<?php echo $row->IdEstudiante; ?>">
 
@@ -42,18 +37,13 @@ foreach ($infoestudiante->result() as $row)
     
   </div>
 
-
-
  
   <button type="submit" class="btn btn-primary">Modificar</button>
-
-
   <?php 
   echo form_close();
   }
 
   ?>
-
 
 
 

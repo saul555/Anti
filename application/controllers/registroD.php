@@ -37,10 +37,7 @@ class RegistroD extends CI_Controller
         $this->load->view('fondo/base2.php'); 
 
 
-
 	}
-
-
 
    public function agregar()
 

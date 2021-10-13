@@ -17,15 +17,7 @@ class Usuarios extends CI_Controller {
       }
       
      
-
-
-       /*else
-      {
-        $this->load->view('inc_head.php');        
-        $this->load->view('loginform1.php',$data); 
-        $this->load->view('inc_footer.php'); 
-       }*/
-      
+    
         else
       {
         $this->load->view('login/cabeza.php');        

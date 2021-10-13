@@ -17,7 +17,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <title></title>
 
  
-    
 
 <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>bootstrap/css/bootstrap.css">
 	

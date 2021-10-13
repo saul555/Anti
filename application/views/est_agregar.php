@@ -10,13 +10,7 @@
     <div class="col-md-12">
 
 
-
-
-
-
 <?php
-
-
   
    echo form_open_multipart('estudiante/agregarbd');
   ?>
@@ -38,42 +32,17 @@
     <input type="text" class="form-control" name="nombre" placeholder="Escribir"  >
     
   </div>
-
-
-
  
   <button type="submit" class="btn btn-primary">Agregar</button>
-
 
   <?php 
   echo form_close();
   
-
   ?>
-
-
-
 
 <form>
   
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

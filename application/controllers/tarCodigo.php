@@ -37,6 +37,15 @@ $resultado = mysqli_query( $enlace, $consulta );
     //echo "exixte un dato    ";
      //echo "exixte un dato    ";
       //echo "exixte un dato    ";
+     //echo "exixte un dato    ";
+      //echo "exixte un dato    ";
+       //echo "exixte un dato    "; //echo "exixte un dato    ";    //echo "exixte un dato    ";
+     //echo "exixte un dato    ";
+      //echo "exixte un dato    ";
+       //echo "exixte un dato    "; //echo "exixte un dato    ";    //echo "exixte un dato    ";
+     //echo "exixte un dato    ";
+      //echo "exixte un dato    ";
+       //echo "exixte un dato    "; //echo "exixte un dato    ";    //echo "exixte un dato    ";
        //echo "exixte un dato    "; //echo "exixte un dato    ";
 
         //echo "exixte un dato    ";
