@@ -1,32 +1,5 @@
  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     <div class="content-wrapper">
       
       <div class="app-content pt-3 p-md-3 p-lg-4">
@@ -34,19 +7,7 @@
      <div class="container-xl">
 
 
-
-
-
-
-
-
-
-             
-
-
-
-
-
+  
    <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
                
@@ -83,7 +44,7 @@
 
 
 
-<h2>Lista de Registro de Desinfección</h2>
+<h2>Lista de Registro de Desinfección   </h2>
 
 
   <!-- Meta 
