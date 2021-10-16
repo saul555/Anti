@@ -12,8 +12,6 @@
         <div class="row">
           <div class="col-12">
            
-           
-          
 
             <div class="card">
               <div class="card-header">
@@ -38,8 +36,7 @@
 
                   </tr>
                   </thead>
-                  <tbody>
-                 
+                  <tbody>                
 
 
                   <?php  
@@ -48,8 +45,7 @@ $indice=1;
 foreach ($t->result() as $row) 
 
 {
-  
-  
+   
   ?>
     <tr>
       <th scope="row"><?php echo $indice; ?></th>
@@ -66,7 +62,6 @@ foreach ($t->result() as $row)
        if($row->nombre=="sin Asignar"){
        
 
-       
         
        ?>
 
@@ -85,9 +80,6 @@ foreach ($t->result() as $row)
 
          ?>
       </td>
-
-
-
 
 
        <?php 
@@ -127,6 +119,9 @@ foreach ($t->result() as $row)
          ?>
       </td>
  
+
+
+
 
 
 
