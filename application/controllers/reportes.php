@@ -27,8 +27,6 @@ class Reportes extends CI_Controller
  $lista2=$this->registroD_model->lista();
      $data['e']=$lista2;
 
-
- 
   
      $this->load->view('fondo/cabeza.php',$data2);    
      
@@ -42,16 +40,19 @@ class Reportes extends CI_Controller
      }      
      
      $this->load->view('asistencia/cuerpoReport.php',$data); 
-     //$this->load->view('asistencia/reportRES.php',$data); 
-    // $this->load->view('registroDef/lista.php',$data); 
-        
+     
         $this->load->view('fondo/base2.php'); 
 
 
 
-
-
 	}
+
+
+
+
+
+
+
 
   public function pdfSS()
 	{
@@ -85,14 +86,7 @@ class Reportes extends CI_Controller
          $this->pdf->Output('Asistencia.pdf','I');
 
 
-
-
-
-
 	}
-
-
-
 
    public function agregar()
 
