@@ -34,28 +34,14 @@ $consulta = "SELECT nombre FROM tarjeta where codigo=$codigo;";
 //$resultado = mysqli_query( $enlace, $consulta );
 $resultado = mysqli_query( $enlace, $consulta );
      $exite="no";
-    //echo "exixte un dato    ";
-     //echo "exixte un dato    ";
-      //echo "exixte un dato    ";
-     //echo "exixte un dato    ";
-      //echo "exixte un dato    ";
-       //echo "exixte un dato    "; //echo "exixte un dato    ";    //echo "exixte un dato    ";
-     //echo "exixte un dato    ";
-      //echo "exixte un dato    ";
-       //echo "exixte un dato    "; //echo "exixte un dato    ";    //echo "exixte un dato    ";
-     //echo "exixte un dato    ";
-      //echo "exixte un dato    ";
-       //echo "exixte un dato    "; //echo "exixte un dato    ";    //echo "exixte un dato    ";
-       //echo "exixte un dato    "; //echo "exixte un dato    ";
 
-        //echo "exixte un dato    ";
         
     while ($fila = $resultado->fetch_row()) {
        // printf ("%s\n", $fila[0]);
         $exite="si";
     }
 
-    //  echo $exite;
+  
 
 
     if($exite=="si"){

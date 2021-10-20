@@ -14,7 +14,6 @@
      $mensaje="Ingrese sus datos";
      break;
  }
-
  
 
  ?>
@@ -27,9 +26,6 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-
-
-
 
 
 
@@ -102,6 +98,56 @@ foreach ($infousuario->result() as $row)
 
  
   <button type="submit" class="btn btn-primary">Agregar</button>
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Agregar</button>
+
+
 
 
   <?php 
