@@ -106,6 +106,12 @@ class Aulas extends CI_Controller
 
 
 
+
+
+  ///aks klasklfasjflkbsfbsldkfihsdblgkbasdigbkajsdgkjasdkg aisjdfgka ssgjsakjdflkasjdbfk sdkfjlsakdf
+
+
+
   public function agregarbd()
   {
     

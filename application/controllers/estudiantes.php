@@ -226,14 +226,7 @@ class Estudiantes extends CI_Controller {
        $lista=$this->estudiante_model->ModificarEstudiante($idestudiante,$data);
       redirect('estudiantes/index','refresh');      
 
-        
-
-      
-      
-
-
-
-
+   
 
   }
  
@@ -271,23 +264,6 @@ class Estudiantes extends CI_Controller {
     $this->load->view('pUsuario.php',$data); //contenido
     $this->load->view('inc_footer.php');  //archivos del footer
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
