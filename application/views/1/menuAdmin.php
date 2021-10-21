@@ -26,6 +26,25 @@
                with font-awesome or any other icon font library -->
          
         
+           <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+         
+            <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+         
+            <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+         
+            <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+         
+            <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+         
+            <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+         
+         
 
 
 
