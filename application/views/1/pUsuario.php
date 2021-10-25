@@ -17,7 +17,6 @@
 
 
 
-
                <?php 
          echo form_open_multipart('usuarios/logout');
          ?>

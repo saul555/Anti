@@ -122,9 +122,6 @@ foreach ($t->result() as $row)
 
 
 
-
-
-
       <td>
         <?php 
          echo form_open_multipart('registroD/Eliminarbd');
@@ -141,6 +138,20 @@ foreach ($t->result() as $row)
   <?php
 
   $indice++;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 ?>
@@ -156,7 +167,29 @@ foreach ($t->result() as $row)
                         <th class="cell"scope="col">nombre </th>
                         
                         
-                        
+                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                           
                    
                         <th class="cell"scope="col">Modificar</th>
                         <th class="cell"scope="col">Eliminar</th>
