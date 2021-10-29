@@ -12,6 +12,13 @@
 
 
 
+
+
+
+
+
+
+
                 <?php 
          echo form_open_multipart('usuarios/logout');
          ?>
@@ -32,6 +39,17 @@
                  <?php echo "Hola ".$this->session->userdata('login'); ?> </li>
                  <li class="breadcrumb-item active">
                  <?php echo "Tu tipo es  ".$this->session->userdata('tipo'); ?> </li>
+
+
+
+
+
+
+
+
+
+
+
 
 
             </ol>
@@ -58,6 +76,16 @@
 
          ?>
 
+
+
+
+
+
+
+
+
+
+
             
           
 
@@ -65,6 +93,13 @@
               <div class="card-header">
                 <h3 class="card-title">Sistema de Temperatura   </h3>
                 <br>
+
+
+
+
+
+
+
 
 
 
@@ -91,6 +126,12 @@
                     <?php
 $indice=1;
 foreach ($estudiantes->result() as $row) {
+  
+
+
+
+
+
   
   
   ?>

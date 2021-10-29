@@ -522,7 +522,7 @@ foreach ($t->result() as $row)
                     <!--//table-responsive-->
                     <!--//table-responsive-->
 
-                    <!--//table-responsive-->
+                    <!--//table-responsive--> 
                 </div><!--//app-card-body-->    
             </div><!--//app-card-->
               </div><!--//tab-pane-->
