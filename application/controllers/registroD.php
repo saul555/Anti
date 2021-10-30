@@ -72,20 +72,7 @@ class RegistroD extends CI_Controller
 
 
 
-     //  $ci=$_POST['ci'];
 
-  
-    // $consul=$this->estudiante_model->validarci($ci); 
-     //if ($consul->num_rows()>0)
-     // {
-        
-        // redirect('estudiantes/agregar/1','refresh');
-
-         
-
-   //   }
-   //   else
-   //   {
     $user=$this->session->userdata('nombreUsuario');
     $data['idUsuaioModifico']=$user;
            $data['nombre']=$_POST['nombre'];
@@ -96,9 +83,6 @@ class RegistroD extends CI_Controller
 
          $this->aula_model->AgregarAula($data);
           redirect('aulas/index','refresh');
-
-    //  }
-      
 
 
        

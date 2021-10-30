@@ -86,6 +86,26 @@ class Reportes extends CI_Controller
          $this->pdf->Output('Asistencia.pdf','I');
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+
 	}
 
    public function agregar()
