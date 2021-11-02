@@ -85,11 +85,6 @@ class RegistroD extends CI_Controller
           redirect('aulas/index','refresh');
 
 
-       
-
-
-       
-     
 
 
   }
@@ -127,23 +122,13 @@ class RegistroD extends CI_Controller
 
 
 
-      // $ci=$_POST['ci'];
-
-  //
-    /// $consulta=$this->estudiante_model->validarci($ci); 
-    
 
        $lista=$this->registroD_model->ModificarRegistro($idregistro,$data);
       redirect('registroD/index','refresh');      
 
         
 
-      
-      
-
-
-
-
+  
 
   }
  
@@ -181,36 +166,6 @@ class RegistroD extends CI_Controller
     $this->load->view('pUsuario.php',$data); //contenido
     $this->load->view('inc_footer.php');  //archivos del footer
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
