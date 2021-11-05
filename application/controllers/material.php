@@ -27,6 +27,11 @@ class Material extends CI_Controller {
      $data['cate']=$lista3;
 
 
+
+
+
+
+     
     
 
 
